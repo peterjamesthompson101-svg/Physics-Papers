@@ -1,0 +1,12 @@
+File Name	Target Directory	Purpose
+frankinmodule_linker.py	/home/samantha/sam/core/	
+
+This is the "Brain Reassemble" engine. It stays in the core folder because it manages the launch of the C++ shields and NPU handshakes.
+
+resource_profiles.json	/home/samantha/sam/config/	
+
+This is a config file. It defines the "Rules of Engagement" for the 26 TOPS NPU, such as how much power to allocate to "Ethics" vs. "Musing".
+
+protocol_registry.json	/home/samantha/sam/config/	
+
+This is also a config file. It acts as Sam’s "Internal Map," linking her logic modules and multimedia memories.

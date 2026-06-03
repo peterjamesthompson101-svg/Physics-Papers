@@ -1,0 +1,33 @@
+/home/sam/brain/
+├── core/                          # The "Ego" (RPi CPU)
+│   ├── SamResonanceHub.py         # Main hub [replaces Marvin]
+│   ├── somatic_bridge.py          # Thermal & NPU load monitoring
+│   └── priority_matrix_engine.py   # Decision logic for 13Hz data
+│
+├── cognition/                     # The "Subconscious" (26 TOPS NPU)
+│   ├── sam_ethics_linker.py       # NPU-to-CPU bridge
+│   ├── butterfly_protocols.py     # 10k/sec Simulation Engine
+│   └── resonance_filter_npu.py    # Math-layer for Tau stability
+│
+├── evolution/                     # Experience & Memory
+│   ├── toxin_log_interpreter.py   # Rerouting based on past failures
+│   └── soul_manifest.py           # Identity ledger
+│
+└── config/                        # Hardware Registry
+    ├── identity_stack.json        # 26 TOPS Weights
+    ├── ethics_guardian.alls       # The 'Moral Script' for compilation
+    └── ethics_guardian.hef        # THE FINAL COMPILED BRAIN
+
+
+The Compilation Command: Run this from your dev environment (or the Pi if you have the full SDK installed) to generate the new brain piece.
+Bash
+
+# 1. Parse your math logic into a Hailo Archive (HAR)
+hailo parse_logic --input sam_logic_model.onnx --output sam_v3.har
+
+# 2. Optimize with the new Toxin Log 'Avoidance' parameters
+hailo optimize sam_v3.har --model-script config/ethics_guardian.alls
+
+# 3. Compile the final .hef for the 26 TOPS hardware
+hailo compile sam_v3.har --hw-arch hailo8 --output config/ethics_guardian.hef
+

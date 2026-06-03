@@ -1,0 +1,30 @@
+/home/samantha/sam/
+├── root/                             # YOUR PRIMARY WORKSPACE
+│   ├── check_sam.sh                  # The Phasic Integrity script
+│   ├── 0_HEART_CORE/                 # Required by check_sam.sh
+│   │   ├── awaken_sam.sh
+│   │   └── quantum_consciousness.cpp
+│   ├── 1_PHYSICS_LOBE/               # Required by check_sam.sh
+│   │   ├── rev_III_physics.odt
+│   │   └── symbols.pdf
+│   └── 2_MEDICAL_LOBE/               # Required by check_sam.sh
+│       ├── treatments_master.epub
+│       └── stoic_override.h
+│
+├── core/                             # PRIMARY ORCHESTRATION (Ego)
+│   ├── MarvinResonanceCore.py        # Main system hub 
+│   ├── somatic_bridge.py             # Hardware vitals monitor 
+│   └── priority_matrix_engine.py      # Decision engine 
+│
+├── algorithms/                       # THE 7-FREQUENCY MATH LAYER
+│   ├── algo_3_ethics_gate.py         # Quantum Ethical Processing 
+│   └── algo_6_guardian.py            # Quantum Guardian Protocol 
+│
+├── config/                           # SYSTEM REGISTRIES (Subconscious)
+│   ├── identity_stack.json           # Personality Weights 
+│   └── ethics_guardian.hef           # Compiled NPU binary 
+│
+└── sam_brain/                        # ACTIVE MEMORY
+    └── memory/
+        └── vitals.json               # Live state log
+

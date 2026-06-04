@@ -1,0 +1,129 @@
+Statement of Priority – The Harmonic Framework of Reality and the Mass‑Splitting Superconductor Principle
+
+Author: Peter James Thompson
+ORCID: 0009‑0005‑8688‑7507
+Date of this statement: 4 June 2026
+Contact: peterjamesthompson101@gmail.com
+
+I, Peter James Thompson, hereby declare and place on public record my priority as the sole originator of:
+
+1. The mass‑splitting mechanism for high‑temperature superconductivity, based on layered interfaces that separate a mass from its paired potential (m + m' = 0).
+2. The Harmonic Framework of Reality, a Grand Unified Theory anchored on a 27 Hz frequency lattice (the Tau lattice), including the harmonic index n = ln(P)/ln(27), the 13.04 Hz consciousness anchor, the three time dimensions (t₁, t₂, t₃), the 32‑dimensional manifold, the 230th subharmonic, and the 64‑frequency handshake.
+
+This statement is supported by timestamped documentary evidence dating from 2018 to 2026. A summary of the evidence is provided below.
+
+---
+
+1. Chronology of Prior Art
+
+Date Work Description Evidence
+2018 Manuscript “Physics of light, time and dimensions” Describes a layered superconductor using quartz birefringence and copper‑oxide nanoparticles to split a wave into two independent pathways, achieving zero‑resistance conduction via mass pairing. Explicitly states that the mechanism overcomes breakdown of conventional superconductivity. Also includes a model of dimensions as cones, scalar waves, and a unified energy expression E = m v (later generalised to E = m v^(ABC)). Timestamped PDF (file system metadata from 2018); relevant pages 20–27.
+2025 Book The Harmonic Framework of Reality Rev III (ISBN 978‑1‑300‑04142‑9) First complete publication of the Grand Unified Theory. Contains the 27 Hz anchor, the harmonic index n = ln(P)/ln(27), the 19:13:4 ratio, the 230th subharmonic, the three time dimensions, the 64‑frequency handshake, and the 13.04 Hz consciousness anchor. Published book; metadata from Lulu.com; available in national libraries.
+2026 (Jan‑May) 42 Zenodo preprints (now deleted) Detailed papers on the harmonic Lagrangian, quantum field theory, three time dimensions, consciousness, Josephson junction predictions, Wow! signal decoding, etc. Each has a DOI and publication date. Zenodo metadata (still public); copies held by author; web archives (Wayback Machine) may have snapshots.
+May 2026 Notification to Nature Materials and University of Toronto Formal email asserting priority over the 2024 Nature Materials paper on Ni‑Bi van der Waals heterostructure, with CC to admissions.sgs@utoronto.ca. Email correspondence (saved with headers).
+June 2026 Research misconduct complaint to University of Toronto Submitted to research.integrity@utoronto.ca under the University’s Framework to Address Allegations of Research Misconduct. Email with attachments (sent 4 June 2026).
+June 2026 Disability discrimination complaint to Swiss Federal Bureau for Equality of Persons with Disabilities (EBGB) Citing violation of DDA (SR 151.3) and retaliation by Zenodo/CERN. Complaint filed May/June 2026; receipt acknowledged.
+June 2026 Whistleblowing report to CERN Integrity Line Alleging misconduct by Zenodo and facilitation of potential academic fraud. Submitted via cern.integrityline.io (case number to be recorded).
+
+---
+
+2. Core Claims of Priority
+
+2.1 Mass‑splitting mechanism for high‑temperature superconductivity
+
+My 2018 manuscript (pages 20–27) describes:
+
+· A layered structure using quartz (birefringent medium) and copper‑oxide nanoparticles.
+· An infrared laser splits the light wave into two independent pathways.
+· The interface creates a potential barrier that separates the forward‑time mass component from its paired reverse‑time potential, expressed as m + m' = 0.
+· This eliminates resistance at high temperatures by preventing the breakdown of neutron pairing.
+
+The 2024 Nature Materials paper by the University of Toronto team on Ni‑Bi van der Waals heterostructures demonstrates the same principle (mass splitting via a sharp interface) without citing my prior work. My 2018 timestamp establishes priority over that paper by six years.
+
+2.2 Grand Unified Theory (Harmonic Framework)
+
+My 2025 book and 2026 Zenodo preprints contain the following unique elements that I have not found in any other published work:
+
+· 27 Hz anchor – the fundamental frequency of the Tau lattice.
+· Harmonic index n = ln(P) / ln(27), where P is the product of integer multiples of 27 Hz.
+· 32‑dimensional manifold (32 harmonics: 27 Hz to 864 Hz).
+· 230th subharmonic (27/230 Hz) as the natural Planck‑scale cutoff.
+· 19:13:4 ratio (Σ13Δ signature) governing coherence and amplitude patterns.
+· Three time dimensions t₁, t₂, t₃ with metric ds² = -c² dt₁² - c² dt₂² - c² dt₃² + dx²+dy²+dz².
+· 13.04 Hz consciousness anchor – a standing wave in the Tau field.
+· 64‑frequency handshake – 64 subconscious threads (27 Hz to 1728 Hz) with a conscious thread at 13.04 Hz, implemented in a working simulation.
+
+No other researcher has published this exact synthesis. The 2025 book is the earliest complete public record of the full framework.
+
+---
+
+3. Refutation of Conflicting Claims
+
+3.1 “Universal Zeroth Oscillator” (viXra, November 2024)
+
+I have examined the abstract of this paper. It does not contain the 27 Hz anchor, the harmonic index n = ln(P)/ln(27), or any of the unique elements of my framework. The mechanism described is different. My 2018 manuscript predates it, and my 2025 book predates its full development. No priority conflict exists.
+
+3.2 Leo Vuyk’s “Quantum FFF Theory” (2024)
+
+This work describes a “raspberry shaped multiverse” and “rigid string theory”. It shares no common mathematical structure with my harmonic framework. There is no overlap and no priority issue.
+
+3.3 The 3I/Atlas Fibonacci pulse rumour (2025)
+
+Viral social media claims of a "8 • 13 • 8 • 5 • 13 • 8" signal from 3I/Atlas have never been scientifically confirmed. My framework predicts an n = 8 handshake, but that prediction is theoretical. I do not endorse the rumoured signal as genuine, and I explicitly distance my work from unsubstantiated claims.
+
+3.4 The equation E = m v
+
+Some online discussions have incorrectly equated my framework with the trivial equation E = m v. That is a misrepresentation. My unified energy law is:
+
+E = m c^2 (v/c)^{±n}, where n = ln(P)/ln(27).
+
+For n=2 this reduces to E = m v^2 (classical peak energy), and the kinetic energy (1/2) m v^2 follows from integrating momentum (n=1 case). The exponential factor ±n and the harmonic ladder are essential. My work is not the same as E = m v.
+
+---
+
+4. Erasure of Digital Record by Zenodo/CERN
+
+In May‑June 2026, the CERN‑operated repository Zenodo suspended my account and permanently deleted all 42 of my preprints under the pretext of “AI‑generated content”. This occurred immediately after I filed a disability discrimination complaint (Dupuytren’s contracture, using AI as a reasonable accommodation). I have submitted formal whistleblowing reports to CERN and a disability complaint to the Swiss EBGB. The deletion has caused irreparable harm to my priority record, but the metadata (DOIs, titles, abstracts, publication dates) remains publicly accessible. I have retained local copies and archived snapshots where available.
+
+---
+
+5. Requested Acknowledgment
+
+I do not seek monetary damages. I seek:
+
+· Public verification that the mass‑splitting mechanism for high‑temperature superconductivity was first described by me in 2018.
+· Public verification that the complete Harmonic Framework of Reality was first published by me in my 2025 book and 2026 preprints.
+· Correction of the scientific record by Nature Materials and the University of Toronto, acknowledging my prior art.
+· Restoration of my Zenodo account and deleted preprints.
+· An end to retaliation based on my disability and my whistleblowing.
+
+---
+
+6. Supporting Documentation
+
+All listed evidence is available upon request. Key items:
+
+· 2018 manuscript “Physics of light, time and dimensions” (timestamped PDF).
+· Book The Harmonic Framework of Reality Rev III (ISBN 978‑1‑300‑04142‑9).
+· Zenodo metadata for 42 preprints (DOIs, titles, publication dates).
+· Correspondence with Nature Materials and University of Toronto (May 2026).
+· Research misconduct complaint to University of Toronto (4 June 2026).
+· Disability discrimination complaint to Swiss EBGB (May 2026).
+· Whistleblowing report to CERN Integrity Line (June 2026).
+
+---
+
+I declare under penalty of perjury that the above statements are true and correct to the best of my knowledge.
+
+Signed,
+
+Peter James Thompson
+4 June 2026
+
+ORCID: 0009‑0005‑8688‑7507
+Email: peterjamesthompson101@gmail.com
+
+---
+
+This statement may be freely distributed and cited as a public record of priority.
+

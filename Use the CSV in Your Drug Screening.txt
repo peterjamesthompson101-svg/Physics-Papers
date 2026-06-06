@@ -1,0 +1,22 @@
+Use the CSV in Your Drug Screening GUI
+
+Your main program harmonic_gut_drug_screen.py already contains load_drugs_from_csv(). However, that function expects columns: name, mw, ratio, freqs. Our CSV has an extra smiles column, but the function will ignore it if you simply read the relevant columns. You can modify the loading function slightly to skip the smiles column, or you can directly use:
+python
+
+drugs = load_drugs_from_csv("molecules.csv")
+
+But the current load_drugs_from_csv assumes the CSV has exactly those four columns. To avoid errors, either:
+
+    Option A: Remove the smiles column from the CSV (easy in pandas). Add df_out.drop(columns=['smiles'], inplace=True) before saving.
+
+    Option B: Modify load_drugs_from_csv to be flexible and ignore extra columns.
+
+I recommend Option A – add the line df_out = df_out[['name', 'mw', 'ratio', 'freqs']] before saving, so the final CSV matches exactly.
+
+I will update the script above accordingly: after creating df_out, ensure it only has the four required columns. Let me adjust the final part:
+python
+
+    # Keep only columns needed for drug screening
+    df_out = df[['name', 'mw', 'ratio', 'freqs']]   # drop 'smiles'
+    df_out.to_csv(output_csv, index=False)
+

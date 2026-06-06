@@ -1,0 +1,123 @@
+Usage Examples
+(a) Single target
+bash
+
+python build_targets.py --pdb-id 1ake --output targets.csv --n-modes 30
+
+(b) Multiple targets from a list file
+
+Create a file targets.txt with one PDB ID per line:
+text
+
+1ake
+1m17
+4hhb
+
+Then run:
+bash
+
+python build_targets.py --pdb-list targets.txt --output targets.csv
+
+(c) Interactive mode
+bash
+
+python build_targets.py --interactive
+
+Type PDB IDs one by one, press Enter on an empty line to finish.
+Integration into Your Drug Screening Pipeline
+
+    Generate targets.csv using the script above.
+
+    Generate drugs.csv from the Molecular Vibration Explorer (using the earlier script).
+
+    Place both files in the same folder as harmonic_gut_drug_screen.py.
+
+    Run the main program and click the “Drug Screen” button.
+
+The program automatically loads both CSVs and computes the coherence matrix for all drug–target pairs.
+Customising the Ratio
+
+In the current script, all targets are assigned the ideal ratio 19/13. In a more advanced version, you could compute a protein‑specific ratio, e.g., using polar surface area / MW. However, that requires 3D structure and is not implemented here. If you have such a ratio, you can add a column to the CSV manually.
+Example targets.csv
+name	mw	ratio	freqs
+1AKE	23.6	1.4615	271.2;542.3;813.6
+1M17	78.3	1.4615	268.7;537.1;805.8
+Notes and Limitations
+
+    The conversion from ANM eigenvalues to real frequencies (Hz) uses a calibration scaling that assumes the first mode corresponds to ~300 Hz. This is a heuristic that fits the range used in your demo. You can adjust the scaling factor in the code.
+
+    ProDy’s ANM is a coarse‑grained model (Cα only). It captures low‑frequency collective motions, which are the most relevant for drug‑binding coherence.
+
+    For high‑throughput screening, running ANM on many proteins may be slow. The script caches downloaded PDB files in a local folder pdb_files/.
+
+Next Steps
+
+    Run the script on a set of known drug targets (COX‑2, HMG‑CoA reductase, etc.).
+
+    Load targets.csv alongside drugs.csv in your main GUI.
+
+    Screen thousands of drug candidates against these targets.
+
+    Validate the coherence scores with known binding affinities (IC₅₀).
+
+
+How to Use the Script
+1. Install Dependencies
+bash
+
+conda create -n gut_targets python=3.9
+conda activate gut_targets
+conda install -c conda-forge prody biopython rcsb-api
+pip install pandas
+
+2. Run a Search
+
+Search for specific target classes:
+bash
+
+python build_target_library.py --classes Kinase,GPCR,IonChannel --max-per-class 50
+
+Run a sequence motif search (e.g., for kinase ATP-binding sites):
+bash
+
+python build_target_library.py --sequence-motif "GXGXXG" --output kinase_targets.csv
+
+Search using a text file with one target class per line:
+bash
+
+python build_target_library.py --class-list-file my_targets.txt
+
+3. Output CSV Format
+
+The script generates a targets.csv file with exactly the columns your drug screening GUI expects:
+csv
+
+name,mw,ratio,freqs
+1AKE_Kinase,23.6,1.4615,271.2;542.3;813.6
+2HZI_Kinase,34.2,1.4615,268.7;537.1;805.8
+6OIK_GPCR,45.1,1.4615,269.0;538.0;807.0
+
+4. Integration
+
+Place targets.csv in the same folder as drugs.csv (from MVE extraction) and your main harmonic_gut_drug_screen.py. Click the "Drug Screen" button to compute coherence scores for every drug–target pair.
+Alternative: Download Curated Drug Target Lists
+
+For a production-ready target library, consider using:
+Database	URL	Content
+BindingDB	bindingdb.org	Measured binding affinities for drug-like molecules
+PDBbind	pdbbind.org.cn	Curated PDB structures with binding data
+DrugCentral	drugcentral.org	FDA-approved drug targets with PDB IDs
+IUPHAR/BPS	guidetopharmacology.org	Comprehensive receptor and ion channel data
+
+To incorporate these, simply download their target lists and adapt the CSV generation accordingly.
+Summary
+
+    The script builds a comprehensive target library by searching RCSB PDB by protein class.
+
+    It handles missing PDB files gracefully (fallback to example targets).
+
+    The output CSV is fully compatible with your main drug screening GUI.
+
+    Integration is automatic when the file is placed in the same folder as your script.
+
+Run the script, click "Drug Screen" in your GUI, and watch your harmonic framework predict drug–target binding across thousands of molecules and hundreds of protein targets.

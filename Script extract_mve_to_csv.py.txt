@@ -1,0 +1,3 @@
+Script: extract_mve_to_csv.py
+
+Place this script inside the root of the downloaded MVE repository (where you see folders like data_SAu, data_SH). Run it with Python.
